@@ -1,0 +1,19 @@
+{
+  "name": "mvm_monitoring",
+  "version": "1.0.0",
+  "description": "API to fetch and expose important statistics from cAdvisor",
+  "main": "server.js",
+  "repository": "https://github.com/Melvinvmegen/MVM_Monitoring",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --inspect --watch-path=./ ./server.js"
+  },
+  "dependencies": {
+    "fastify": "^5.8.5",
+    "ofetch": "^1.5.1",
+    "dotenv": "^17.4.2"
+  }
+}
